@@ -51,7 +51,7 @@ document.getElementById("btn3").addEventListener("click",function()
                var CommentRegex= /^[a-zA-Z0-9\.\ ]{0,220}$/;
                if (NameRegex.test(nam)==false)
                {
-                  document.getElementById("nam1").innerHTML="Name should not 3 to 30 charcters";
+                  document.getElementById("nam1").innerHTML="Name should be 3 to 30 charcters";
                }
                else
                {
