@@ -44,7 +44,7 @@ document.getElementById("btn3").addEventListener("click",function()
                var comment2=document.myform.comment.value;
                var agree2=document.myform.agree.checked;
                var NameRegex= /^[a-zA-Z\ ]{3,30}$/;
-               var EmailRegex= /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+               var EmailRegex= /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z\.]+)\.([a-zA-Z]{2,5})$/;
                var MobileRegex = /^(\+91)?[7-9]{1}[0-9]{9}$/;
                var AgeRegex= /^[1-4][0-9]$/;
                var NomRegex= /^[1-9]$/;
