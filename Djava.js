@@ -48,7 +48,7 @@ document.getElementById("btn3").addEventListener("click",function()
                var MobileRegex = /^(\+91)?[7-9]{1}[0-9]{9}$/;
                var AgeRegex= /^[1-4][0-9]$/;
                var NomRegex= /^[1-9]$/;
-               var CommentRegex= /^[a-zA-Z0-9\.]{0,230}$/;
+               var CommentRegex= /^[a-zA-Z0-9\.\ ]{0,220}$/;
                if (NameRegex.test(nam)==false)
                {
                   document.getElementById("nam1").innerHTML="Name should not 3 to 30 charcters";
@@ -107,7 +107,7 @@ document.getElementById("btn3").addEventListener("click",function()
                                         document.getElementById("dtype1").innerHTML="";
                                         if(CommentRegex.test(comment2)==false)
                                         {
-                                            document.getElementById("comment1").innerHTML="comment cannot be greater than 220 characters";
+                                            document.getElementById("comment1").innerHTML="comment should not contain any special symbol and comment cannot be greater than 220 characters";
                                         }
                                         else
                                         {
